@@ -1,0 +1,46 @@
+# OS
+.DS_Store
+
+# bundle
+/.bundle
+vendor/bundle/
+
+# log and temp
+/log/*
+/tmp/*
+
+# history
+.byebug_history
+
+# node
+node_modules
+npm-debug.log
+
+# public
+public/assets/
+
+# rspec
+/spec/examples.txt
+/coverage
+/spec/tmp
+
+# .env
+.env
+.env.*.decrypted
+config/encrypted_data_bag_secret
+
+# yard
+.yardoc
+/doc
+
+# ansible
+*.retry
+
+# keep
+!.keep
+!.gitkeep
+!.env.example
+
+
+# Project Config
+erd.*
