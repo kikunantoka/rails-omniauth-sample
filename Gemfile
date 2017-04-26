@@ -37,6 +37,12 @@ gem 'jbuilder', '~> 2.5'
 gem 'dotenv'
 gem 'dotenv-rails'
 
+# oauth
+gem 'devise'
+gem 'omniauth'
+gem 'omniauth-line'
+gem 'omniauth-twitter'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
