@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 20170426050205) do
 
-  create_table "customer_users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+  create_table "customer_users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4" do |t|
     t.string "provider", null: false
     t.string "uid", null: false
     t.integer "sign_in_count", default: 0, null: false
